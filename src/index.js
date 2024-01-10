@@ -1,8 +1,9 @@
-import express from "express";
+const express = require('express');
 
+// initialize an Express app
 const app = express();
 
-// Sample data
+// sample data to simulate a database
 let users = [
   { id: 1, email: "john.doe@example.com", name: "John Doe" },
   { id: 2, email: "jane.smith@example.com", name: "Jane Smith" },
@@ -109,8 +110,8 @@ app.delete("/api/v1/users/:userId", (req, res) => {
 });
 
 // API for games
-app.get("/api/v1/games/:userId/users", (req, res) => {
-  const game = games.find((game) => game.id === parseInt(req.params.userId));
+app.get("/api/v1/games/:gameId/users", (req, res) => {
+  const game = games.find((game) => game.id === parseInt(req.params.gameId));
 
   if (!game) {
     return res.status(404).json({ message: "Game not found" });
@@ -124,7 +125,7 @@ app.get("/api/v1/games/:userId/users", (req, res) => {
 });
 
 // start the server
-const PORT = 5000;
+const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Running on PORT ${PORT}`);
 });
