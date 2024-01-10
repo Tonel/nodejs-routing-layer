@@ -1,0 +1,125 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+pnpm-debug.log
+pnp-debug.log
+
+# Optional eslint cache
+.eslintcache
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variables file
+.env
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# VSCode
+.vscode/
+
+# Test directory
+__tests__/
+test/
+
+# IDE
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains
+.idea/
+
+# Sublime Text
+.sublime-project
+.sublime-workspace
+
+# WebStorm
+.idea/
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# JetBrains
+.idea/
+
+# Sublime Text
+.sublime-project
+.sublime-workspace
+
+# WebStorm
+.idea/
+
+# Visual Studio Code
+.vscode/
+.history/
+node_modules/
+
+# Config files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.map
+*.tsbuildinfo
+
+# TypeDoc generated files
+docs/
+
+# Compiled output
+lib/
+dist/
+*.tsbuildinfo
+
+# Yarn
+yarn-error.log
+.pnp/
+.pnp.js
+node_modules/

@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-routing-layer",
+  "version": "1.0.0",
+  "description": "Demo application to showcase how a Node.js routing layer works",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
