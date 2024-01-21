@@ -4,6 +4,7 @@ const fs = require("fs");
 
 // initialize an Express application
 const app = express();
+app.use(express.json());
 
 // connect to the "src/routers" directory
 const routersPath = path.join(__dirname, "routes");
