@@ -1,7 +1,8 @@
-const express = require('express');
+const express = require("express");
 
 // initialize an Express app
 const app = express();
+app.use(express.json());
 
 // sample data to simulate a database
 let users = [
